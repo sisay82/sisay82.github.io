@@ -5,9 +5,23 @@ body, html {
     height: 100%;
     margin: 0;
 }
-
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0.5em 0;
+}
+#logo p {
+    display: inline-block;
+    margin: 0px;
+    padding-left: 8px;
+}
+#logo img{
+    height: 3vh;
+    display: inline-block;
+}
 .bgimg {
-    background-image: url('/bg.jpg');
+    background-image: url('images/bg.jpg');
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -46,7 +60,7 @@ hr {
 
 <div class="bgimg">
   <div class="topleft">
-    <p>Logo</p>
+    <div id="logo"><img src="images/logo.jpg" alt="Breadcrumb Logo"> <p>Sisay is back in town</p></div>
   </div>
   <div class="middle">
     <h1>COMING SOON</h1>
@@ -54,7 +68,7 @@ hr {
     <p id="demo" style="font-size:30px"></p>
   </div>
   <div class="bottomleft">
-    <p>Some text</p>
+    <p>This is a just a demo of github page to make it grow in more awesome content</p>
   </div>
 </div>
 
